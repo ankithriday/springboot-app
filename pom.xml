@@ -33,7 +33,19 @@
             </plugin>
         </plugins>
     </build>
-    
+   
+    <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>ip-172-31-19-50-releases</name>
+        <url>http://3.17.145.47:8081/artifactory/springboot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>ip-172-31-19-50-snapshots</name>
+        <url>http://3.17.145.47:8081/artifactory/springboot</url>
+    </snapshotRepository>
+</distributionManagement>
 
 
 </project>
